@@ -18,11 +18,12 @@ const AddCategory = ( { setCategorias } ) => {
             setInputValue('');
         }       
     }
-    //KMYJgPaBHpV7IiEBaCJJWlzKnIDaKTHh
+
     return (
         <form onSubmit={ handleSearchSbmt }>
         <input 
             type="text"
+            placeholder=" Search Gif"
             value={ inputValue }
             onChange={ handleInputChange }
         />
